@@ -1,0 +1,37 @@
+body{
+margin: auto;
+width: 80%;
+}  
+  .parent{
+ background-image: url(../);
+    
+
+
+  }
+  
+
+  
+  .a{
+
+margin: auto;
+font-family: 'Lumanosimo', cursive;
+display: flex;
+background-color: black;
+height:70px ;
+
+}
+
+.c{
+    padding-left: 550px;
+}
+
+
+.c li{
+    display: inline;
+   padding-right: 20px;
+   color: white;
+}
+
+.a h2{
+    color: yellow;
+}

@@ -1,0 +1,534 @@
+
+*{
+margin: 0px;
+padding-left: 0px;
+
+}
+
+.image{
+background-image: url(../op/banner-image.jpg);
+margin-left: 400px;
+margin-top: 100px;
+background-repeat: no-repeat;
+width: 400px;
+height: 450px;
+border-radius: 20px 20px 20px 20px;
+}
+.image h3{
+margin-top: 10px;
+margin-left: 325px;
+background-color: rgb(45, 45, 234);
+text-align: center;
+padding-top: 10px;
+height: 30px;
+border-radius: 30px;
+color: white;
+}
+
+.image h2{
+margin-top: 360px;
+background-color: rgb(249, 64, 64);
+width: 100px;
+height: 80px;
+text-align: center;
+padding-top: 20px;
+border-radius: 50%;
+font-size: 30px;
+color: white;
+margin-left: -20px;
+}
+
+
+
+
+.parent5{
+
+display: flex;
+flex-direction: row;
+
+
+}
+
+.child3 i     {
+font-size: 30px;
+margin-top: 50px;
+margin-left: 120px;
+width: 80px;
+height: 80px;
+background-color: blue;
+padding-left: 40px;
+padding-top: 40px;
+border-radius: 50%;
+}
+.child3 h2{
+/* margin-left: 80px; */
+text-align: center;
+margin-top: 50px;
+
+}
+
+.child3{
+width: 350px;
+height: 250px;
+background-color:rgb(224, 224, 224);
+margin-left: 25px;
+border-radius: 20px 20px 20px 20px;
+margin-top: -60px;
+}
+
+
+.parent6{
+margin-top: 200px;
+padding-left: 100px;
+background-color: rgb(235, 225, 225);
+height: 600px;
+border-radius: 120px 120px 120px 120px ;
+}
+.parent6 h1{
+margin-top: 40px;
+font-size: 45px;
+
+
+}
+.parent6 h3{
+font-size: 25px;
+color: red;
+padding-top: 50px;
+}
+
+
+.parent7{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.child4 img{
+
+border-radius: 20px 20px  20px 20px;
+}
+.child4{
+height: 310px;
+width: 190px;
+background-color: whitesmoke;
+margin-top: 50px;
+margin-left: -70px;
+border-radius: 20px 20px 20px 20px;
+}
+
+.child4 button{
+margin-top: 25px;
+margin-left: 35px;
+width: 120px;
+border-radius: 20px 20px 20px 20px;
+background-color: rgb(255, 80, 80);
+color: white;
+
+}
+.child4 h3{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.child4 button:hover{
+background-color: rgb(50, 139, 255);
+}
+
+.child4 h3:hover{
+color: rgb(50, 139, 255);
+
+
+
+
+}
+
+
+
+
+.parent3{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.child2{
+/* margin-top: 200px; */
+padding-top: 200px;
+width: 450px;
+/* background-color: aqua; */
+height: 300px;
+margin-left: 200px;
+color: white;
+}
+
+.child2 p{
+padding-top: 25px;
+}
+.child2 button{
+width: 130px;
+height: 30px;
+font-size: 18px;
+border-radius: 20px 20px 20px 20px;
+margin-top: 60px;
+background-color: red;
+margin-left: 300px;
+color: white;
+}
+
+.child2 button:hover{
+background-color: yellow;
+
+
+}
+
+
+
+
+
+
+
+body{
+height: 1000px;
+
+}
+
+
+
+.parent2{
+background-image: url(../op/WhatsApp\ Image\ 2023-09-02\ at\ 3.51.18\ PM.jpeg);
+width: auto;
+height: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+.child1{
+display: flex;
+width:100% ;
+height:80px ;
+background-color:#328bff;;
+border-radius:  0px 0px 50px 50px ;
+position: fixed; 
+z-index: 5;
+top: 0px;
+/* right: 15px;
+left: 15px; */
+}
+.sd li{
+display: inline;
+padding-right: 30px;
+font-size: 25px;
+color: rgb(242, 226, 226);
+
+}
+.sd{
+margin-left: 650px;
+padding-top: 20px;
+
+}
+.child1 img{
+margin-left: 50px;
+width: 100px;
+height: 40px;
+padding-top: 15px;
+
+}
+
+
+.sd li:hover{
+color: rgb(202, 60, 76);
+
+}
+
+.parent{
+    margin-left: 50px;
+    margin-top: 200px;
+    text-transform: uppercase;
+    position: relative;
+    }
+    .parent h2{
+        font-size: 25px; 
+        margin-top: 30px;
+    } 
+        .parent h2,.parent p{
+    margin-left: 60px;
+    
+        }
+        .parent p{
+/* padding-top: ; */
+color: red;
+
+
+        }
+    
+        
+    
+    .parent-games{
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    /* width: 300px; */
+    height:330px ;
+    /* background-color: rgb(176, 185, 185); */
+    border-radius:10% ;
+    justify-content: space-evenly;
+    position: relative;
+    }
+    .games1{
+        background-color: rgb(219, 220, 220);
+    border-radius: 20%;
+    position: relative;
+    margin-top: 50px;
+    }
+    .games1 h3 {
+    display: inline;
+    margin-left: 25px;
+    }
+    .games1 img{
+    border-radius: 20%;
+    }
+    .games1 p{
+    margin-left:25px ;
+    }
+    
+    .games1 i{
+    margin-left: 50px;
+    margin-right: 20px;
+    font-size: 30px;
+    width: 50px;
+    height: 45px;
+    background-color: brown;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+    }
+    
+    .games1:hover{
+    color: rgb(43, 67, 226);
+    
+    }
+    
+    .y{
+    width: 45px;
+    height: 30px;
+    position: absolute;
+    background-color: blue;
+    border-radius: 20%;
+    margin-left: 200px;
+    font-size: 18px;
+    margin-top: -240px;
+    }
+    .parent8 h4{
+margin-top: 100px;
+margin-left: 750px;
+color: rgb(245, 84, 84);
+
+    }
+    
+    
+    .parent8 h1{
+      margin-top: 30px;
+        margin-left: 680px;
+        font-size: 35px;
+        
+            }
+.parnet9{
+display: flex;
+flex-direction: row;
+
+
+}
+.child5{
+margin-left: 70px;
+width: 235px;
+height: 240px;
+background-color: rgb(73, 135, 192);
+padding-top: 30px;
+border-radius: 20px 20px 20px 20px;
+margin-top: 40px;
+justify-content: space-evenly;
+
+}
+
+.child5 img{
+border-radius: 20px 20px 20px 20px;
+
+}
+.child5 h3{
+text-align: center;
+color: white;
+margin-bottom:20px ;
+}
+
+
+
+
+body{
+    font-family: 'Mooli', sans-serif;
+
+
+
+}
+
+.parent10{
+background-image:url(../op/WhatsApp\ Image\ 2023-09-30\ at\ 15.35.01.jpg) ;
+width: 550px ;
+height: 500px;
+margin-top: 200px;
+margin-left:500px ;
+border-radius: 20px 20px 20px 20px;
+
+
+}
+
+.parent11{
+display: flex;
+flex-direction: row;
+
+
+}
+.child6{
+width: 550px;
+height: 500px;
+margin-left: -400px;
+background-color: rgb(222, 222, 228);
+margin-top: 100px;
+border-radius: 20px 20px 20px 20px;
+}
+.child6 h4{
+padding-top: 50px;
+padding-left: 50px;
+color: rgb(240, 87, 87);
+
+}
+.child6 h1{
+
+padding-top: 30px;width: 345px;
+height: 150px;
+/* background-color: aquamarine; */
+padding-left: 50px;
+}
+.child6 h5{
+width: 350px;
+height: 100px;
+font-size: 20px;
+/* background-color: brown; */
+padding-left: 50px;
+/* padding-top: 30px; */
+}
+
+.child6 button{
+margin-left: 50px;
+width: 150px;
+height: 50px;
+background-color: rgb(240, 87, 87);
+border-radius: 20px 20px 20px 20px;
+
+}
+.child7{
+    width: 500px;
+    height: 400px;
+    margin-left: 400px;
+    background-color: rgb(222, 222, 228);
+    /* margin-top: 200px; */
+    border-radius: 20px 20px 20px 20px;
+margin-top:-450px ;
+}
+.child7 h3{
+
+    padding-top: 50px;
+padding-left: 50px;
+color: rgb(240, 87, 87);
+
+}
+.child7 h1{
+    padding-top: 30px;
+    width: 345px;
+    height: 150px;
+    /* background-color: aquamarine; */
+    padding-left: 50px;
+
+}
+.child7 input{
+margin-left: 70px;
+width: 250px;
+height: 40px;
+border-radius: 30px 30px 30px 30px;
+padding-left: 12px;
+margin-top: 50px;
+}
+.child7 button{
+    height: 40px;
+margin-left: -50px;
+border-radius: 30px 30px 30px 30px;
+background-color:rgb(240, 87, 87) ;
+}
+
+.parnet12 h3{
+margin-top: 200px;
+text-align: center;
+color: white;
+padding-top:70px ;
+}
+
+.parnet12{
+width: auto;
+height: 200px;
+background-color:rgb(50, 139, 255);
+border-radius: 120px  120px 0px 0px  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
